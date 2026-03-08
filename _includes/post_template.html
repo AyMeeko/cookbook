@@ -1,0 +1,84 @@
+{% assign recipe = include.r %}
+
+<div class='recipe'>
+  <h4>{{ recipe.title }}</h5>
+
+  <div class="twelve columns" id="instructions">
+    <div class="six columns">
+      {% if recipe.image %}
+      <div class="img_container">
+        <a href="{{ recipe.original_recipe_link }}">
+          <img src="{{ recipe.image | absolute_url }}" role="presentation" />
+        </a>
+      </div>
+      {% endif %}
+      {% if recipe.original_recipe_link %}
+      <div class="small-text">
+        Want to hear the creator's life story? Click <a href="{{ recipe.original_recipe_link }}">here</a>.
+      </div>
+      {% endif %}
+    </div>
+
+    <div class="six columns" id="words-of-wisdom">
+      {% include words_of_wisdom.html r=recipe %}
+    </div>
+  </div>
+
+  <div class="twelve columns">
+    <div class="five columns" id="general-info">
+      <table>
+        <tbody>
+          {% if recipe.recipe_yield %}
+          <tr>
+            <th>Yield</th>
+            <td>{{ recipe.recipe_yield }}</td>
+          </tr>
+          {% endif %}
+          {% if recipe.prep_time %}
+          <tr>
+            <th>Preparation time</th>
+            <td>{{ recipe.prep_time | recipe_pretty_duration | default: "N/A" }}</td>
+          </tr>
+          {% endif %}
+          {% if recipe.cook_time %}
+          <tr>
+            <th>Cook time</th>
+            <td>{{ recipe.cook_time | recipe_pretty_duration | default: "N/A" }}</td>
+          </tr>
+          {% endif %}
+          {% if recipe.chill_time %}
+          <tr>
+            <th>Chill time</th>
+            <td>{{ recipe.chill_time | recipe_pretty_duration | default: "N/A" }}</td>
+          </tr>
+          {% endif %}
+          {% if recipe.total_time %}
+          <tr>
+            <th>Total time</th>
+            <td>{{ recipe.total_time | recipe_pretty_duration | default: "N/A" }}</td>
+          </tr>
+          {% endif %}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="seven columns" id="ingredients">
+      <h5 class="header">Ingredients</h5>
+      {% if recipe.ingredients %}
+        {% include ingredients.html r=recipe %}
+      {% else %}
+        {% include multi_part_ingredients.html r=recipe %}
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="twelve columns" id="instructions">
+    <h5 class="header">Instructions</h5>
+    {% if recipe.instructions %}
+      {% include instructions.html r=recipe %}
+    {% else %}
+      {% include multi_part_instructions.html r=recipe %}
+    {% endif %}
+  </div>
+
+</div>

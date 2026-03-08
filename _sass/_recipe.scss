@@ -1,0 +1,79 @@
+.recipe {
+  font-size: 18px;
+  font-family: $body-font;
+
+  .post-list {
+    margin-top: 5px;
+  }
+
+  .row {
+    margin-bottom: 30px;
+  }
+
+  .img_container {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    overflow: hidden
+    //border: dashed blue 1px;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 15px;
+  }
+
+  ul li {
+    list-style: circle inside;
+  }
+
+  h4 {
+    font-weight: bolder;
+  }
+
+  .custom-counter {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .custom-counter li {
+    counter-increment: step-counter;
+    margin-bottom: 14px;
+    line-height: 1.5;
+  }
+
+  .custom-counter li::before {
+    content: counter(step-counter);
+    margin-right: 5px;
+    font-size: 80%;
+    background-color: $ol_li_background;
+    color: $ol_li_foreground;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+  }
+
+  .small-text {
+    font-size: 12px;
+  }
+}
+
+#general-info {
+  border-right: 1px solid $gen_info_right_border;
+}
+
+#words-of-wisdom {
+  padding-left: 25px;
+  font-size: 16px;
+}
+
+#ingredients {
+  font-size: 20px;
+}
+
+.instruction-section-name {
+  font-size: 20px;
+  padding-top: 15px;
+}

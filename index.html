@@ -1,0 +1,14 @@
+---
+layout: default
+title: Lorea & Amy's Recipes
+selected_nav: "/"
+---
+{% if site.categories.front_page1.size > 0 %}
+<ul class="posts recipe">
+  {% include front_page.html category=site.categories.front_page1 %}
+  {% include front_page.html category=site.categories.front_page2 %}
+  {% include front_page.html category=site.categories.front_page3 %}
+</ul>
+{% else %}
+    {% include index.html %}
+{% endif %}
