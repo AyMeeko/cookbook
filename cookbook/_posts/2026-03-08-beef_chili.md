@@ -4,7 +4,7 @@ date: "2026-03-08"
 ingredients:
   - 1 lb Kirkland 9% Fat Lean Ground Beef
   - 479g Kettle & Fire Beef Bone Broth (1 carton)
-  - 3 tsp Minced Garlic (or 3 cloves)
+  - 3 tsp Garlic, minced (or 3 cloves)
   - 2 tbsp Chili Powder
   - 0.5 tsp Cumin Seed
   - 0.5 tbsp Salt
