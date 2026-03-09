@@ -29,18 +29,18 @@
 
 <div class="twelve columns">
   <div class="six columns">
-    <h3 class="header">Lorea's Favs</h3>
+    <h3 class="header">Protein Powder</h3>
     <ul class="posts recipe">
-      {% for post in site.categories.lorea %}
+      {% for post in site.categories.protein_powder %}
         <div>» <a href="{{ post.url | absolute_url }}">{{ post.title }}</a></div>
       {% endfor %}
     </ul>
   </div>
 
   <div class="six columns">
-    <h3 class="header">Amy's Favs</h3>
+    <h3 class="header">Components</h3>
     <ul class="posts recipe">
-      {% for post in site.categories.amy %}
+      {% for post in site.categories.components %}
         <div>» <a href="{{ post.url | absolute_url }}">{{ post.title }}</a></div>
       {% endfor %}
     </ul>

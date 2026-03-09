@@ -58,18 +58,55 @@
             <td>{{ recipe.total_time | recipe_pretty_duration | default: "N/A" }}</td>
           </tr>
           {% endif %}
+          {% if recipe.macrofactor %}
+          <tr>
+            <th>Recipe Link</th>
+            <td><a href="{{ recipe.macrofactor }}">MacroFactor</a></td>
+          </tr>
+          {% endif %}
         </tbody>
       </table>
     </div>
 
-    <div class="seven columns" id="ingredients">
-      <h5 class="header">Ingredients</h5>
-      {% if recipe.ingredients %}
-        {% include ingredients.html r=recipe %}
-      {% else %}
-        {% include multi_part_ingredients.html r=recipe %}
-      {% endif %}
+    <div class="seven columns" id="nutrition-facts">
+      <table>
+        <tbody>
+          {% if recipe.calories %}
+          <tr>
+            <th>Calories</th>
+            <td>{{ recipe.calories }}</td>
+          </tr>
+          {% endif %}
+          {% if recipe.protein %}
+          <tr>
+            <th>Protein</th>
+            <td>{{ recipe.protein }}</td>
+          </tr>
+          {% endif %}
+          {% if recipe.fat %}
+          <tr>
+            <th>Fat</th>
+            <td>{{ recipe.fat }}</td>
+          </tr>
+          {% endif %}
+          {% if recipe.carbs %}
+          <tr>
+            <th>Carbs</th>
+            <td>{{ recipe.carbs }}</td>
+          </tr>
+          {% endif %}
+        </tbody>
+      </table>
     </div>
+  </div>
+
+  <div class="seven columns" id="ingredients">
+    <h5 class="header">Ingredients</h5>
+    {% if recipe.ingredients %}
+      {% include ingredients.html r=recipe %}
+    {% else %}
+      {% include multi_part_ingredients.html r=recipe %}
+    {% endif %}
   </div>
 
   <div class="twelve columns" id="instructions">

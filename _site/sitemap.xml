@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/recipes/cookbook/desserts/amy/2023/11/26/snickerdoodle-cookies.html</loc>
-<lastmod>2023-11-26T00:00:00-06:00</lastmod>
+<loc>http://localhost:4000/cookbook/cookbook/protein_powder/2025/07/11/strawberry_smoothie.html</loc>
+<lastmod>2025-07-11T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/recipes/cookbook/</loc>
+<loc>http://localhost:4000/cookbook/cookbook/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/recipes/</loc>
+<loc>http://localhost:4000/cookbook/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/recipes/recipe_template.html</loc>
+<loc>http://localhost:4000/cookbook/recipe_template.html</loc>
 </url>
 </urlset>
