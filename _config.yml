@@ -1,9 +1,9 @@
-title: Recipes
+title: Cookbook
 email: aymeeko13@gmail.com
 markdown: kramdown
 root_url: "/"
 url: https://aymeeko.github.io
-baseurl: "/recipes"
+baseurl: "/cookbook"
 
 plugins:
   - jekyll-sitemap
