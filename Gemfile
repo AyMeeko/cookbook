@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
-ruby '3.1.2'
+ruby '4.0.1'
 
 gem 'jekyll'
 gem 'jekyll-sitemap'
 gem 'kramdown-parser-gfm'
 
 group :development do
-  gem "jekyll-theme-midnight"
+  gem 'jekyll-theme-midnight'
 end
 
-gem "webrick", "~> 1.7"
+gem 'webrick', '~> 1.7'

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recipes</title>
+    <description></description>
+    <link>http://localhost:4000/recipes/</link>
+    <atom:link href="http://localhost:4000/recipes/atom.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 08 Mar 2026 19:20:18 -0500</pubDate>
+    <lastBuildDate>Sun, 08 Mar 2026 19:20:18 -0500</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
+    
+    
+    <item>
+      <title>Challah French Toast Casserole</title>
+      <description>
+</description>
+      <link>http://localhost:4000/recipes/recipes/main_courses/lorea/2023/01/27/Challah-French-Toast-Casserole.html</link>
+      <guid isPermaLink="true">http://localhost:4000/recipes/recipes/main_courses/lorea/2023/01/27/Challah-French-Toast-Casserole.html</guid>
+      
+      
+      <category>recipes</category>
+      
+      <category>main_courses</category>
+      
+      <category>lorea</category>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Lasagna Soup</title>
+      <description>
+</description>
+      <link>http://localhost:4000/recipes/recipes/main_courses/2022/12/29/lasagna-soup.html</link>
+      <guid isPermaLink="true">http://localhost:4000/recipes/recipes/main_courses/2022/12/29/lasagna-soup.html</guid>
+      
+      
+      <category>recipes</category>
+      
+      <category>main_courses</category>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Bacon Hamburger Pie</title>
+      <description>
+</description>
+      <link>http://localhost:4000/recipes/recipes/main_courses/2022/10/24/Bacon-Hamburger-Pie.html</link>
+      <guid isPermaLink="true">http://localhost:4000/recipes/recipes/main_courses/2022/10/24/Bacon-Hamburger-Pie.html</guid>
+      
+      
+      <category>recipes</category>
+      
+      <category>main_courses</category>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Lorea&apos;s Spaghetti Sauce</title>
+      <description>
+</description>
+      <link>http://localhost:4000/recipes/recipes/main_courses/lorea/2022/10/08/spaghetti-sauce.html</link>
+      <guid isPermaLink="true">http://localhost:4000/recipes/recipes/main_courses/lorea/2022/10/08/spaghetti-sauce.html</guid>
+      
+      
+      <category>recipes</category>
+      
+      <category>main_courses</category>
+      
+      <category>lorea</category>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Pressure Cooker Pulled Chicken</title>
+      <description>
+</description>
+      <link>http://localhost:4000/recipes/recipes/main_courses/2022/08/13/pulledchicken.html</link>
+      <guid isPermaLink="true">http://localhost:4000/recipes/recipes/main_courses/2022/08/13/pulledchicken.html</guid>
+      
+      
+      <category>recipes</category>
+      
+      <category>main_courses</category>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>One Pot Mac&apos;n&apos;Cheese</title>
+      <description>
+</description>
+      <link>http://localhost:4000/recipes/recipes/main_courses/side_dishes/lorea/2022/08/13/macncheese.html</link>
+      <guid isPermaLink="true">http://localhost:4000/recipes/recipes/main_courses/side_dishes/lorea/2022/08/13/macncheese.html</guid>
+      
+      
+      <category>recipes</category>
+      
+      <category>main_courses</category>
+      
+      <category>side_dishes</category>
+      
+      <category>lorea</category>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Ninja Foodi Turkey Breast</title>
+      <description>
+</description>
+      <link>http://localhost:4000/recipes/recipes/main_courses/2022/07/02/ninja-turkey.html</link>
+      <guid isPermaLink="true">http://localhost:4000/recipes/recipes/main_courses/2022/07/02/ninja-turkey.html</guid>
+      
+      
+      <category>recipes</category>
+      
+      <category>main_courses</category>
+      
+    </item>
+    
+    
+    
+    <item>
+      <title>Classic Lasagna</title>
+      <description>
+</description>
+      <link>http://localhost:4000/recipes/recipes/main_courses/2022/07/02/lasagna.html</link>
+      <guid isPermaLink="true">http://localhost:4000/recipes/recipes/main_courses/2022/07/02/lasagna.html</guid>
+      
+      
+      <category>recipes</category>
+      
+      <category>main_courses</category>
+      
+    </item>
+    
+    
+  </channel>
+</rss>
