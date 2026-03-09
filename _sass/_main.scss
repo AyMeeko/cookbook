@@ -2,6 +2,11 @@ body {
   margin-bottom: 40px;
   font-family: $body-font; //"Lato", sans-serif;
   background-color: $background;
+  color: $text;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $header_color;
 }
 
 ul li {
@@ -54,4 +59,13 @@ hr {
 .header {
   color: $header_color;
   font-family: $header_font;
+}
+
+code, pre {
+  color: $text;
+}
+
+blockquote {
+  color: $text;
+  border-left: 4px solid $hr;
 }
