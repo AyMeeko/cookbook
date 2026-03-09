@@ -19,7 +19,7 @@ recipe_yield: 1 serving
 prep_time: 5m
 cook_time: 0m
 layout: post
-categories: [protein_powder]
+categories: [protein_powder, front_page1]
 macrofactor: https://link.macrofactor.app/custom-food?userId=hkTSpcytxsNSoFJ8MPx6p3jZacE2&foodId=1752797516856405
 calories: 219
 protein: 34g
