@@ -4,7 +4,6 @@
   <h4>{{ recipe.title }}</h5>
 
   <div class="twelve columns" id="instructions">
-    <div class="six columns">
       {% if recipe.image %}
       <div class="img_container">
         <a href="{{ recipe.original_recipe_link }}">
@@ -17,11 +16,7 @@
         Want to hear the creator's life story? Click <a href="{{ recipe.original_recipe_link }}">here</a>.
       </div>
       {% endif %}
-    </div>
-
-    <div class="six columns" id="words-of-wisdom">
       {% include words_of_wisdom.html r=recipe %}
-    </div>
   </div>
 
   <div class="twelve columns">
