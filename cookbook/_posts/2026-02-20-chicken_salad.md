@@ -19,7 +19,7 @@ recipe_yield: 4 servings
 prep_time: 15m
 cook_time: 0m
 layout: post
-categories: [main_courses]
+categories: [main_courses, front_page1]
 macrofactor: https://link.macrofactor.app/custom-food?userId=hkTSpcytxsNSoFJ8MPx6p3jZacE2&foodId=1771270114372389
 calories: 256
 protein: 51.4g
